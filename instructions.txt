@@ -1,0 +1,7 @@
+# Install Java 21
+sudo apt-get update
+sudo apt-get install openjdk-21-jdk
+
+# Set Java 21 as default
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH

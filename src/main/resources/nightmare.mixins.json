@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.nightmare.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+	  "VillagerMixin"
+	],
+	"client": [],
+	"injectors": {
+	  "defaultRequire": 1
+	}
+  }
